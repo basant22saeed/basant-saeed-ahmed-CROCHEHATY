@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Harmattan&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-position: top center;
+  font-family: "Harmattan", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  background-color: rgba(153, 75, 226, 0.171);
+}
+nav .fa-bars {
+  display: none;
+}
+div.logo {
+  display: flex;
+  font-size: 2rem;
+  font-family: "Aref Ruqaa", serif;
+  align-items: center;
+  padding-left: 0.075rem;
+  color: rgb(133, 0, 133);
+}
+div.items {
+  font-family: "Harmattan", sans-serif;
+  color: rgb(133, 0, 133);
+  display: flex;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+.navitems {
+  display: flex;
+  list-style-type: none;
+}
+nav .navitems .navitem {
+  padding: 0 1rem;
+}
+.navlink {
+  text-decoration: none;
+  color: rgb(133, 0, 133);
+  font-size: 1.6rem;
+}
+.navlink:hover {
+  color: rgba(255, 78, 234, 0.74);
+}
+.intro {
+  font-size: 1.3rem;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+.intro h3 {
+  color: rgba(231, 53, 210, 0.74);
+}
+.intro i {
+  color: rgb(133, 0, 133);
+}
+.intro p {
+  font-weight: bold;
+}
+div.steps {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+.steps i {
+  color: rgb(133, 0, 133);
+  padding: 0.5rem;
+  color: rgb(133, 0, 133);
+  font-size: 1.3rem;
+}
+.steps h5 {
+  color: rgba(231, 53, 210, 0.74);
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0 0.5rem 0 0;
+}
+.step {
+  font-size: 1.3rem;
+  padding: 0 0.5rem 0 0;
+}
+sub {
+  font-size: 1.3rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+p {
+  font-size: 1.3rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+ol {
+  font-size: 1.3rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+.step .yarns-hooks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: flex-start;
+}
+.yarns-hooks .yarn-hook {
+  margin: 2rem 0;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-resize {
+  height: 230px;
+}
+.yarns-hooks .yarn-hook img {
+  margin-bottom: 1rem;
+}
+.yarns-hooks .yarn-hook h3 {
+  font-size: 1.3rem;
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Harmattan&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./images/crochet\ background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  font-family: "Harmattan", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  background-color: rgba(153, 75, 226, 0.171);
+}
+nav .fa-bars {
+  display: none;
+}
+div.logo {
+  display: flex;
+  font-size: 2rem;
+  font-family: "Aref Ruqaa", serif;
+  align-items: center;
+  padding-left: 0.075rem;
+  color: rgb(133, 0, 133);
+}
+div.items {
+  font-family: "Harmattan", sans-serif;
+  color: rgb(133, 0, 133);
+  display: flex;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+.navitems {
+  display: flex;
+  list-style-type: none;
+}
+nav .navitems .navitem {
+  padding: 0 1rem;
+}
+.navlink {
+  text-decoration: none;
+  color: rgb(133, 0, 133);
+  font-size: 1.6rem;
+}
+.navlink:hover {
+  color: rgba(255, 78, 234, 0.74);
+}
+div {
+  display: flex;
+  font-size: 2rem;
+  font-family: "Harmattan", sans-serif;
+  align-items: center;
+  padding-left: 0.075rem;
+}
+i {
+  padding: 1rem 1rem;
+  color: rgb(133, 0, 133);
+}
+div a {
+  color: rgb(56, 56, 56);
+}
+div h4 {
+  color: rgb(56, 56, 56);
+}

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Harmattan&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Harmattan", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  background-color: rgba(153, 75, 226, 0.171);
+}
+nav .fa-bars {
+  display: none;
+}
+div.logo {
+  display: flex;
+  font-size: 2rem;
+  font-family: "Aref Ruqaa", serif;
+  align-items: center;
+  padding-left: 0.075rem;
+  color: rgb(133, 0, 133);
+}
+div.items {
+  font-family: "Harmattan", sans-serif;
+  color: rgb(133, 0, 133);
+  display: flex;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+.navitems {
+  display: flex;
+  list-style-type: none;
+}
+
+nav .navitems .navitem {
+  padding: 0 1rem;
+}
+.navlink {
+  text-decoration: none;
+  color: rgb(133, 0, 133);
+  font-size: 1.6rem;
+}
+.navlink:hover {
+  color: rgba(255, 78, 234, 0.74);
+}
+.img-resize {
+  height: 440px;
+}
+.herosection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 120px auto;
+  padding: 0 120px;
+}
+.herosection .herotext {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: right;
+}
+.herosection .herotext h2 {
+  font-size: 2rem;
+  color: rgb(170, 0, 170);
+  margin-bottom: 2rem;
+  text-align: right;
+}
+.herosection .herotext span {
+  font-weight: bold;
+  color: rgba(172, 117, 224, 0.849);
+}
+.herosection .heroimg {
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}

@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa&family=Harmattan&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./images/crochet3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Harmattan", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  background-color: rgb(255, 255, 255);
+}
+nav .fa-bars {
+  display: none;
+}
+div.logo {
+  display: flex;
+  font-size: 2rem;
+  font-family: "Aref Ruqaa", serif;
+  align-items: center;
+  padding-left: 0.075rem;
+  color: rgb(133, 0, 133);
+}
+div.items {
+  font-family: "Harmattan", sans-serif;
+  color: rgb(133, 0, 133);
+  display: flex;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+.navitems {
+  display: flex;
+  list-style-type: none;
+}
+nav .navitems .navitem {
+  padding: 0 1rem;
+}
+.navlink {
+  text-decoration: none;
+  color: rgb(133, 0, 133);
+  font-size: 1.6rem;
+}
+.navlink:hover {
+  color: rgba(255, 78, 234, 0.74);
+}
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+}
+.login h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 20px 0;
+}
+.login p {
+  font-size: 20px;
+  margin: 15px 0;
+}
+.login input {
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+}
+.login button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(133, 0, 133);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.login button:hover {
+  background-color: rgba(255, 78, 234, 0.74);
+  cursor: pointer;
+}
+
+.login radio {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+}
